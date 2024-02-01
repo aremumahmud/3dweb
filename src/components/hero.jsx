@@ -30,7 +30,10 @@ function Hero() {
     });
   });
   return (
-    <div className="">
+    <div style={{
+        position:'relative',
+        top:`${(window.innerHeight * 50)/625}px`
+    }}>
       <div className="hero">
         {/* <div className="left_hero">
             <div className="circle fill">1</div>
