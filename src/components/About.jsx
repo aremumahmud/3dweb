@@ -16,7 +16,7 @@ function About() {
   return (
     <div className="about">
         <br /><br />  <br /><br />  <br /><br />
-      <div className="about_card">
+      <div className="about_card" style={{marginTop:'100px'}}>
         <div className="about_title">
           <p className="light">Who we Are</p>
           <p>Content is at the core of everything we create .</p>

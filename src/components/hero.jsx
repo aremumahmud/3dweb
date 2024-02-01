@@ -23,7 +23,7 @@ function Hero() {
     window.addEventListener("scroll", () => {
       let vl = window.scrollY;
       set({ offset: window.scrollY });
-      //  setHeroBottom(`-${vl*2.5}px`)
+    //    setHeroBottom(`-${vl*2.5}px`)
       setForestBack(`${vl * 0.5}px`);
       setForestBack1(`${vl * 1}px`);
       setForestFront(`${vl * 0.4}px`);
