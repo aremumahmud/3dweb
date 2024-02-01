@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<section class="hero">
+    <img src="../src/svgs/4.svg" alt="ffff" id="mountains">
+    <img src="../src/svgs/3.svg" alt="3iol" id="forestBack">
+    <img src="../src/svgs/2.svg" alt="hd,j" id="forestMid">
+    <img src="../src/svgs/5.svg" alt="'oid'" id="forestFront">
+    <h1 id="heroText">Enjoy the forest</h1>
+</section>
+<section>
+    <p>fuck you</p>
+</section>
+
+<body>
+
+</body>
+<script>
+    const herotxt = document.getElementById('heroText')
+    const fb = document.getElementById('forestFront')
+    const fb1 = document.getElementById('forestMid')
+    window.addEventListener('scroll', () => {
+        let vl = window.scrollY
+
+        herotxt.style.bottom = `-${vl*2.5}px`
+        fb.style.bottom = `${vl*0.5}px`
+        fb1.style.bottom = `${vl*1}px`
+    })
+</script>
+
+</html>

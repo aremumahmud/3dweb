@@ -1,0 +1,40 @@
+        .images_group {
+            --tw-bg-opacity: 1;
+            background-color: rgb(7 7 9/var(--tw-bg-opacity));
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: fit-content;
+            background-image: radial-gradient(46.99% 43.05% at 2.58% 100%, rgba(46, 48, 56, .4) 0, transparent 100%), radial-gradient(55.18% 55.16% at 12.42% -3.42%, rgba(46, 48, 56, .4) 0, transparent 100%);
+        }
+        
+        .image_card_ {
+            display: flex;
+            border: 1px solid rgba(204, 204, 204, 0.192);
+            border-radius: 24px;
+            height: fit-content;
+            width: 56%;
+            justify-content: space-between;
+            padding: 70px;
+            background-image: radial-gradient(46.99% 43.05% at 2.58% 100%, rgba(46, 48, 56, .4) 0, transparent 100%), radial-gradient(55.18% 55.16% at 12.42% -3.42%, #3dca5e71 0, transparent 100%);
+        }
+        
+        .image_card_ .side1 p {
+            margin: 0%;
+            padding: auto;
+            color: white;
+            opacity: .8;
+            font-size: 60px;
+            font-weight: 800;
+            word-spacing: 10px;
+            line-height: 5rem;
+        }
+        
+        .side2 div {
+            width: 400px;
+            border: 1px solid;
+            height: 100%;
+            border-radius: 24px;
+        }

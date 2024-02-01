@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+    padding: 70px;
+    gap: 50px;
+    padding-bottom: 70px;
+}
+
+.footer .logo p {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.social_icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.social_icons a {
+    color: white;
+    opacity: .9;
+}
+
+address {
+    font-style: inherit;
+    font-size: large;
+}

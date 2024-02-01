@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding: 2rem;
+}
+
+.header .header_image {
+    width: 10%;
+}
+
+.header .header_image img {
+    width: 100%;
+}
+
+.header ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 1rem;
+    font-weight: 300;
+    color: cornsilk;
+}
+
+.header ul li:last-child {
+    background-color: black;
+    color: cornsilk;
+}
