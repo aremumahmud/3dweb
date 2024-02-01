@@ -4,7 +4,7 @@
     --tw-bg-opacity: 1;
     /* background-color: rgb(7 7 9/var(--tw-bg-opacity)); */
     --tw-text-opacity: 1;
-    color: rgb(255 255 255/var(--tw-text-opacity));
+    color: #f4f3ee;
     -webkit-font-smoothing: antialiased;
     display: flex;
     position: sticky;
@@ -20,7 +20,7 @@
 .light {
     opacity: .9;
     --tw-text-opacity: 1;
-    color: rgb(166 229 242/var(--tw-text-opacity));
+    color: #e0afa0;
     letter-spacing: .01em;
     line-height: 112.5%;
     font-weight: 500;
