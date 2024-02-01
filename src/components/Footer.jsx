@@ -1,6 +1,9 @@
 import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa6"
 // import head from '../images/header.png'
 import '../css/footer.css'
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from "react";
+
 const socialLinks = {
     address: "18 King St East 14th Floor, Toronto Ontario, MH5 1A1",
     email: "info@brandtalkmedia.com",
@@ -10,6 +13,15 @@ const socialLinks = {
   }
 
 function Footer(){
+  useEffect(() => {
+    // Configure the scroll reveal animation
+    ScrollReveal().reveal('.footer', {
+      delay: 200,
+      origin: 'bottom',
+      duration: 800,
+      scale: 1,
+    });
+  }, []);
     return (
         <div className="footer">
           <div className="logo">

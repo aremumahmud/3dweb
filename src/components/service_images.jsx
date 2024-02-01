@@ -3,9 +3,19 @@ import { FaBullhorn} from 'react-icons/fa'
 import { FiInstagram } from "react-icons/fi";
 import { HiPhoto } from "react-icons/hi2";
 import { FaChartColumn, FaChartGantt,  FaAudioDescription } from "react-icons/fa6";
-
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 function ServiceImages(){
+    useEffect(() => {
+        // Configure the scroll reveal animation
+        ScrollReveal().reveal('.card_', {
+          delay: 200,
+          origin: 'bottom',
+          duration: 800,
+          scale: 1,
+        });
+      }, []);
     return (
         <div className="service_image">
            <div className="card_">

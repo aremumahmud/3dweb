@@ -1,7 +1,18 @@
+import { useEffect } from "react";
 import "../css/about.css";
-
+import ScrollReveal from 'scrollreveal';
 
 function About() {
+
+  useEffect(() => {
+    // Configure the scroll reveal animation
+    ScrollReveal().reveal('.about_card', {
+      delay: 200,
+      origin: 'bottom',
+      duration: 800,
+      scale: 1,
+    });
+  }, []);
   return (
     <div className="about">
         <br /><br />  <br /><br />  <br /><br />

@@ -1,8 +1,20 @@
 import img1 from "../images/img1.png";
 import img2 from "../images/img2.png";
 import '../css/images.css'
+import { useEffect } from "react";
+import ScrollReveal from 'scrollreveal';
+
 
 function Images(){
+    useEffect(() => {
+        // Configure the scroll reveal animation
+        ScrollReveal().reveal('.image_card_', {
+          delay: 200,
+          origin: 'bottom',
+          duration: 800,
+          scale: 1,
+        });
+      }, []);
     return (
         <div className="images_group">
             <div className="image_card_">
