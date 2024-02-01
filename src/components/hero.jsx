@@ -5,6 +5,7 @@ import svg2 from '../svgs/2.svg'
 import svg3 from '../svgs/3.svg'
 import svg4 from '../svgs/4.svg'
 
+
 import '../css/hero.css'
 import { useEffect, useState } from 'react'
 // import {Parallax ,ParallaxLayer} from '@react-spring/parallax'
@@ -19,7 +20,7 @@ function Hero(){
         window.addEventListener('scroll', () => {
             let vl = window.scrollY
     
-            setHeroBottom(`-${vl*2.5}px`)
+         //  setHeroBottom(`-${vl*2.5}px`)
            setForestBack( `${vl*0.5}px !important`) 
             setForestFront( `${vl*1}px`)
         })
