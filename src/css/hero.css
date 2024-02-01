@@ -31,9 +31,9 @@
 .sun {
     width: 20rem;
     height: 20rem;
-    background-color: #ACA885;
+    background-color: #8a817c;
     border-radius: 50%;
-    filter: drop-shadow(0 0 2em #ACA885);
+    filter: drop-shadow(0 0 2em #8a817c);
     transition: all .5s ease;
     display: flex;
     justify-content: center;

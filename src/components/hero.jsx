@@ -32,7 +32,7 @@ function Hero() {
   return (
     <div style={{
         position:'relative',
-        top:`${(window.innerHeight * 50)/625}px`
+        top:`${((window.innerHeight * 50)/625)-20}px`
     }}>
       <div className="hero">
         {/* <div className="left_hero">
