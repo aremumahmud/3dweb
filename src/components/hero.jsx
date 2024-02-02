@@ -13,8 +13,8 @@ import { useEffect, useState } from "react";
 
 function Hero() {
   let [hero_bottom, setHeroBottom] = useState(null);
-  let [forestFont, setForestFront] = useState("-100px");
-  let [forestback, setForestBack] = useState("-100px");
+  let [forestFont, setForestFront] = useState(null);
+  let [forestback, setForestBack] = useState(null);
   let [forestback1, setForestBack1] = useState(null);
 
   const [{ offset }, set] = useSpring(() => ({ offset: 0 }));

@@ -49,3 +49,30 @@
 .glow {
     filter: drop-shadow(0 0 2em #463f3a);
 }
+
+@media (max-width:465px) {
+    .service_image {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        gap: 10px 10px;
+    }
+    .service_image .card_ {
+        width: 100%;
+        padding: 0;
+    }
+    .service_image .card_ .text {
+        font-size: 1rem;
+    }
+    .service_image .card_ .image img {
+        width: 70px !important;
+        height: 70px;
+    }
+    .service_image .card_ .image svg {
+        width: 30px !important;
+        height: 30;
+    }
+    .glow {
+        filter: none;
+    }
+}

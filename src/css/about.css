@@ -68,3 +68,16 @@
 .parallax-image {
     width: 100%;
 }
+
+@media (max-width:465px) {
+    .light {
+        font-size: small;
+    }
+    .about_title p:last-child {
+        font-size: 27px;
+    }
+    .content {
+        font-size: .8rem;
+        line-height: 1.6rem
+    }
+}

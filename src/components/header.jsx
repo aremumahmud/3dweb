@@ -1,5 +1,7 @@
 import header_image from '../images/header.png'
 import '../css/header.css'
+import { FaHamburger } from "react-icons/fa";
+
 
 function Header(){
    return (
@@ -9,6 +11,9 @@ function Header(){
         </div>
 
         <div className="navs">
+            <div className="alt">
+                <FaHamburger />
+            </div>
             <ul>
                 <li>Who we are</li>
                 <li>Services</li>

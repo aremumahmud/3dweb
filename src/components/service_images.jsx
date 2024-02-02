@@ -19,19 +19,19 @@ function ServiceImages(){
     return (
         <div className="service_image">
            <div className="card_">
-            <div className="image"><FiInstagram className='glow' size={90} opacity={.9}  /></div>
+            <div className="image"><FiInstagram className='glow adapt' size={90} opacity={.9}  /></div>
             <div className="text">Social Media</div>
            </div>
            <div className="card_">
-           <div className="image"><FaBullhorn  className='glow' size={90} opacity={.9} /></div>
+           <div className="image"><FaBullhorn  className='glow adapt' size={90} opacity={.9} /></div>
             <div className="text">Public Relations</div>
            </div>
            <div className="card_">
-           <div className="image"><FaChartColumn  className='glow' size={90} opacity={.9} /></div>
+           <div className="image"><FaChartColumn  className='glow adapt' size={90} opacity={.9} /></div>
             <div className="text">Marketing</div>
            </div>
            <div className="card_">
-           <div className="image"><FaChartGantt  className='glow' size={90} opacity={.9} /></div>
+           <div className="image"><FaChartGantt  className='glow adapt' size={90} opacity={.9} /></div>
             <div className="text">Influencer Marketing</div>
            </div>
            <div className="card_">

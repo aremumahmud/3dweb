@@ -9,24 +9,25 @@ import Clients from "./components/clients"
 import ClientImages from "./components/client_image"
 import Footer from "./components/Footer"
 import 'animate.css'
+import Spiral from "./components/spiral"
 
   
 
 function App() {
     return (
       <div>
-        <div>
+        <Spiral />
           <Header />
          <Hero />
-        </div>
+        
         <br />
-         <About />
-         <Images />
+        <About />
+         <Images /> 
          <Services >  <ServiceImages /> <br /><br /></Services>
          <Clients >  
           <ClientImages /> <br /><br /><br /><br /> <br /><br /><br /><br />
           <Footer />
-          </Clients>
+          </Clients> {/* */}
          
       </div>
      

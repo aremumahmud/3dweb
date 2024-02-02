@@ -26,3 +26,15 @@
     background-color: black;
     color: cornsilk;
 }
+
+@media (max-width:465px) {
+    .header ul {
+        display: none;
+    }
+    .header .header_image {
+        width: 40%;
+    }
+    .header {
+        padding-left: 1rem;
+    }
+}
