@@ -1,6 +1,6 @@
 import header_image from '../images/header.png'
 import '../css/header.css'
-import { FaHamburger } from "react-icons/fa";
+import { FaEllipsisH, FaEllipsisV, FaHamburger } from "react-icons/fa";
 
 
 function Header(){
@@ -12,7 +12,7 @@ function Header(){
 
         <div className="navs">
             <div className="alt">
-                <FaHamburger />
+                <FaEllipsisV color='white' style={{opacity:.9}} />
             </div>
             <ul>
                 <li>Who we are</li>

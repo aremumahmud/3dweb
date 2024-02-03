@@ -27,7 +27,14 @@
     color: cornsilk;
 }
 
+.alt {
+    display: none;
+}
+
 @media (max-width:465px) {
+    .alt {
+        display: block;
+    }
     .header ul {
         display: none;
     }
