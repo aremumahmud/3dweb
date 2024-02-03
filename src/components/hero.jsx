@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 // import {Parallax ,ParallaxLayer} from '@react-spring/parallax'
 
 function Hero() {
-  let [hero_bottom, setHeroBottom] = useState(null);
+  let [hero_bottom] = useState(null);
   let [forestFont, setForestFront] = useState(null);
   let [forestback, setForestBack] = useState(null);
   let [forestback1, setForestBack1] = useState(null);
