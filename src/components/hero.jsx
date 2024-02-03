@@ -74,7 +74,7 @@ function Hero() {
           style={hero_bottom ? { bottom: hero_bottom } : {}}>
           <div className="sun">
             <div className="image">
-              <img src={sneakers} alt="" />
+              <img style={{display:'none'}} src={sneakers} alt="" />
               <img src={header_image} alt="" />
             </div>
           </div>
