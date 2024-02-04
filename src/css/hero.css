@@ -130,7 +130,7 @@
                     transform: rotate(360deg) rotateY(360deg) scale(.8);
                 }
                 
-                @media (max-width:465px) {
+                @media (max-width:690px) {
                     /* .sun .image {
                     display: none;
                 } */

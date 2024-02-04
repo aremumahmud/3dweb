@@ -47,7 +47,7 @@ const Spiral = ({color_scheme}) => {
     };
   }, [color_scheme]);
 
-  return <div style={{width:'100%', height:'100vh',position:'fixed', zIndex:'-10'}}  ref={mountRef} />;
+  return <div style={{width:'100%', height:'100vh',position:'absolute', zIndex:'-10'}}  ref={mountRef} />;
 };
 
 export default Spiral;

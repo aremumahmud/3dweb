@@ -69,7 +69,7 @@
     width: 100%;
 }
 
-@media (max-width:465px) {
+@media (max-width:690px) {
     .light {
         font-size: small;
     }
