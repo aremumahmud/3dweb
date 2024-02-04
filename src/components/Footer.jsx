@@ -7,9 +7,9 @@ import { useEffect } from "react";
 const socialLinks = {
     address: "18 King St East 14th Floor, Toronto Ontario, MH5 1A1",
     email: "info@brandtalkmedia.com",
-    instagram_username: "brandtalkmedia",
-    facebook_username: "brandtalkmedia",
-    twitter_username: "brandtalkmedia",
+    instagram_username: "https:instagram.com/brandtalkmedia",
+    facebook_username: "https://facebook.com/brandtalkmedia",
+    twitter_username: "https://twitter.com/brandtalkmedia",
   }
 
 function Footer(){
@@ -23,7 +23,7 @@ function Footer(){
     });
   }, []);
     return (
-        <div className="footer">
+        <div className="footer" id="work">
           <div className="logo">
              <p>Contact Us</p>
           </div>

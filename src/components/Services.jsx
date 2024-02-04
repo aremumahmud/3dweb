@@ -2,7 +2,7 @@ import '../css/services.css'
 
 function Services({children}){
     return (
-      <div className='services'>
+      <div id='service' className='services'>
         <br /><br /><br />
         <div className="about_card">
         <div className="about_title">

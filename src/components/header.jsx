@@ -15,11 +15,11 @@ function Header(){
                 <FaEllipsisV color='white' style={{opacity:.9}} />
             </div>
             <ul>
-                <li>Who we are</li>
-                <li>Services</li>
-                <li>Clients</li>
-                <li>Work with us</li>
-                <li>Contact us</li>
+                <li><a href="#who">Who we are</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#work">Work with us</a></li>
+                <li><a href="#work">Contact us</a></li>
             </ul>
         </div>
 

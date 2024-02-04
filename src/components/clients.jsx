@@ -5,7 +5,7 @@ import '../css/services.css'
 
 function Clients({children}){
     return (
-      <div className='services' style={{backgroundImage:'none'}}>
+      <div id='clients' className='services' style={{backgroundImage:'none'}}>
         <br /><br /><br />
         <div className="about_card">
         <div className="about_title">

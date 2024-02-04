@@ -22,6 +22,11 @@
     color: cornsilk;
 }
 
+.header ul li a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
 .header ul li:last-child {
     background-color: black;
     color: cornsilk;
