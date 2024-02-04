@@ -1,5 +1,5 @@
 import sneakers from "../images/shoe.png";
-import header_image from "../images/header.png";
+import header_image from "../images/header1.png";
 import svg5 from "../svgs/5.svg";
 import svg2 from "../svgs/2.svg";
 import svg3 from "../svgs/3.svg";
